@@ -3,5 +3,6 @@
 /*APARELHO EM PAISAGEM*/
 
 body {
-    
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
