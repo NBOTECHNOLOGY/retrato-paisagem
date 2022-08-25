@@ -12,6 +12,25 @@ Grandes telas: acima de 1200px
 */
 
 @media print {
+    
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg); /* desnecessario */
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: block;
+    }
+
+    img#phone { display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
 
 }
 
@@ -32,6 +51,8 @@ Grandes telas: acima de 1200px
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
+
+
     img#phone { display: none;}
     img#tablet {display: none;}
     img#print {display: none;}
@@ -43,6 +64,11 @@ Grandes telas: acima de 1200px
     body {
         background-image: url(../imagens/back-tv.jpg);
     }
+
+    main {
+        width: 700px;
+    }
+
     img#phone { display: none;}
     img#tablet {display: none;}
     img#print {display: none;}
